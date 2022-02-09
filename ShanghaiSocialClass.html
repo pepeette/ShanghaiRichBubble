@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b9a27f5212ef46f3a15551ec12c4612d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b9a27f5212ef46f3a15551ec12c4612d" ></div>
+        
+</body>
+<script>    
+    
+            var map_b9a27f5212ef46f3a15551ec12c4612d = L.map(
+                "map_b9a27f5212ef46f3a15551ec12c4612d",
+                {
+                    center: [31.204146720633513, 121.27842239982779],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d2e23ce51381463fad655343d511b12c = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 15, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b9a27f5212ef46f3a15551ec12c4612d);
+        
+    
+            var marker_fbed3337c8074bf386f0495bc87ad83d = L.marker(
+                [31.206426521623357, 121.27167208353517],
+                {}
+            ).addTo(map_b9a27f5212ef46f3a15551ec12c4612d);
+        
+    
+            var icon_875b1e88aae24ff9b4648a9165a324a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fbed3337c8074bf386f0495bc87ad83d.setIcon(icon_875b1e88aae24ff9b4648a9165a324a5);
+        
+    
+        var popup_663247ef6f15486c8b69a41200370670 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbfce998bc45472aaf4598067c205c30 = $(`<div id="html_fbfce998bc45472aaf4598067c205c30" style="width: 100.0%; height: 100.0%;">Shanghai Old Money</div>`)[0];
+            popup_663247ef6f15486c8b69a41200370670.setContent(html_fbfce998bc45472aaf4598067c205c30);
+        
+
+        marker_fbed3337c8074bf386f0495bc87ad83d.bindPopup(popup_663247ef6f15486c8b69a41200370670)
+        ;
+
+        
+    
+    
+            var marker_c7c718616a2e494db0ce0782e4358cb2 = L.marker(
+                [31.20223462000911, 121.2747050248754],
+                {}
+            ).addTo(map_b9a27f5212ef46f3a15551ec12c4612d);
+        
+    
+            var icon_b6982eb6a036484cabb2ff870ab18a86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c7c718616a2e494db0ce0782e4358cb2.setIcon(icon_b6982eb6a036484cabb2ff870ab18a86);
+        
+    
+        var popup_f1aba6912d6a42f59d202f238573a50b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b26303b41ddb45e8a6bb263d0b3d4f2e = $(`<div id="html_b26303b41ddb45e8a6bb263d0b3d4f2e" style="width: 100.0%; height: 100.0%;">Shanghai Old Money</div>`)[0];
+            popup_f1aba6912d6a42f59d202f238573a50b.setContent(html_b26303b41ddb45e8a6bb263d0b3d4f2e);
+        
+
+        marker_c7c718616a2e494db0ce0782e4358cb2.bindPopup(popup_f1aba6912d6a42f59d202f238573a50b)
+        ;
+
+        
+    
+    
+            var marker_4ce63a2937924c0bbbd08737963b82d4 = L.marker(
+                [31.1999262990068, 121.27889260678803],
+                {}
+            ).addTo(map_b9a27f5212ef46f3a15551ec12c4612d);
+        
+    
+            var icon_d97fa4b5568144d59509fc1284be01dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "credit-card", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4ce63a2937924c0bbbd08737963b82d4.setIcon(icon_d97fa4b5568144d59509fc1284be01dd);
+        
+    
+        var popup_bd68a054198c41a09464d5d46bfafcf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b65e60a4c764bf69aeaea86372b4cdb = $(`<div id="html_8b65e60a4c764bf69aeaea86372b4cdb" style="width: 100.0%; height: 100.0%;">Shanghai New Rich</div>`)[0];
+            popup_bd68a054198c41a09464d5d46bfafcf6.setContent(html_8b65e60a4c764bf69aeaea86372b4cdb);
+        
+
+        marker_4ce63a2937924c0bbbd08737963b82d4.bindPopup(popup_bd68a054198c41a09464d5d46bfafcf6)
+        ;
+
+        
+    
+    
+            var marker_3a7d64a56eca4e36a5acd2d68ba9ae27 = L.marker(
+                [31.204153480604766, 121.28456093041471],
+                {}
+            ).addTo(map_b9a27f5212ef46f3a15551ec12c4612d);
+        
+    
+            var icon_bb4b365b62244917b331d7e26e1ea811 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a7d64a56eca4e36a5acd2d68ba9ae27.setIcon(icon_bb4b365b62244917b331d7e26e1ea811);
+        
+    
+        var popup_3115e3bff1774f4885b467d78eb18167 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f022e5df5356455aa418d585f68e1080 = $(`<div id="html_f022e5df5356455aa418d585f68e1080" style="width: 100.0%; height: 100.0%;">American Teachers</div>`)[0];
+            popup_3115e3bff1774f4885b467d78eb18167.setContent(html_f022e5df5356455aa418d585f68e1080);
+        
+
+        marker_3a7d64a56eca4e36a5acd2d68ba9ae27.bindPopup(popup_3115e3bff1774f4885b467d78eb18167)
+        ;
+
+        
+    
+    
+            var marker_5b230122d5cb494495a650ae5da8d526 = L.marker(
+                [31.2099986330848, 121.27376258969826],
+                {}
+            ).addTo(map_b9a27f5212ef46f3a15551ec12c4612d);
+        
+    
+            var icon_d5269a23b32d45818f7e158519c986cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b230122d5cb494495a650ae5da8d526.setIcon(icon_d5269a23b32d45818f7e158519c986cc);
+        
+    
+        var popup_8d4fd071f2dc434f9d001a2d3fd40155 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2f2d9f892b2453b8d0b34a88084cff1 = $(`<div id="html_e2f2d9f892b2453b8d0b34a88084cff1" style="width: 100.0%; height: 100.0%;">American Teachers</div>`)[0];
+            popup_8d4fd071f2dc434f9d001a2d3fd40155.setContent(html_e2f2d9f892b2453b8d0b34a88084cff1);
+        
+
+        marker_5b230122d5cb494495a650ae5da8d526.bindPopup(popup_8d4fd071f2dc434f9d001a2d3fd40155)
+        ;
+
+        
+    
+    
+            var marker_3812013bd6614370a99ee5264eac5fb3 = L.marker(
+                [31.20212618788822, 121.28663704698673],
+                {}
+            ).addTo(map_b9a27f5212ef46f3a15551ec12c4612d);
+        
+    
+            var icon_69f29fb3e14942fd9e60edf6ed66c0ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_3812013bd6614370a99ee5264eac5fb3.setIcon(icon_69f29fb3e14942fd9e60edf6ed66c0ab);
+        
+    
+        var popup_28af74a637234a2baec3740b976bde66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37bf5b89f05f43a69d181a77ac884d2a = $(`<div id="html_37bf5b89f05f43a69d181a77ac884d2a" style="width: 100.0%; height: 100.0%;">Shanghai Discreet Money</div>`)[0];
+            popup_28af74a637234a2baec3740b976bde66.setContent(html_37bf5b89f05f43a69d181a77ac884d2a);
+        
+
+        marker_3812013bd6614370a99ee5264eac5fb3.bindPopup(popup_28af74a637234a2baec3740b976bde66)
+        ;
+
+        
+    
+    
+            var marker_6b5bf798d2d54fe2b4118bcc8ae42423 = L.marker(
+                [31.21078954815578, 121.27766706348187],
+                {}
+            ).addTo(map_b9a27f5212ef46f3a15551ec12c4612d);
+        
+    
+            var icon_dfee47b1946c46f786787cadb2bc8f40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_6b5bf798d2d54fe2b4118bcc8ae42423.setIcon(icon_dfee47b1946c46f786787cadb2bc8f40);
+        
+    
+        var popup_4ea01d66202c42b29d5cbf76f8995099 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb98e7bb19214dbe8934f6f25f961a9a = $(`<div id="html_cb98e7bb19214dbe8934f6f25f961a9a" style="width: 100.0%; height: 100.0%;">Shanghai Discreet Money</div>`)[0];
+            popup_4ea01d66202c42b29d5cbf76f8995099.setContent(html_cb98e7bb19214dbe8934f6f25f961a9a);
+        
+
+        marker_6b5bf798d2d54fe2b4118bcc8ae42423.bindPopup(popup_4ea01d66202c42b29d5cbf76f8995099)
+        ;
+
+        
+    
+    
+            var marker_6bcdd29ca29a4632b04708bf5fa88fce = L.marker(
+                [31.202589827558395, 121.26962459682996],
+                {}
+            ).addTo(map_b9a27f5212ef46f3a15551ec12c4612d);
+        
+    
+            var icon_9b74b1d9d4d04ff185e8a804fc4092d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_6bcdd29ca29a4632b04708bf5fa88fce.setIcon(icon_9b74b1d9d4d04ff185e8a804fc4092d4);
+        
+    
+        var popup_00864fc2c59d4618b4f3901f31ed241c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00cdacbc46f34aada3e2860215624427 = $(`<div id="html_00cdacbc46f34aada3e2860215624427" style="width: 100.0%; height: 100.0%;">Foreigners</div>`)[0];
+            popup_00864fc2c59d4618b4f3901f31ed241c.setContent(html_00cdacbc46f34aada3e2860215624427);
+        
+
+        marker_6bcdd29ca29a4632b04708bf5fa88fce.bindPopup(popup_00864fc2c59d4618b4f3901f31ed241c)
+        ;
+
+        
+    
+    
+            var circle_a459c82f315d41e6ad3aaa40d118a377 = L.circle(
+                [31.204146720633513, 121.27842239982779],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_b9a27f5212ef46f3a15551ec12c4612d);
+        
+    
+        var popup_575c3e55888b447fa6c55cbfdc601e17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ced3b6c8ea4d460092e7c95c8f8785a3 = $(`<div id="html_ced3b6c8ea4d460092e7c95c8f8785a3" style="width: 100.0%; height: 100.0%;">Shanghai BUBBLE</div>`)[0];
+            popup_575c3e55888b447fa6c55cbfdc601e17.setContent(html_ced3b6c8ea4d460092e7c95c8f8785a3);
+        
+
+        circle_a459c82f315d41e6ad3aaa40d118a377.bindPopup(popup_575c3e55888b447fa6c55cbfdc601e17)
+        ;
+
+        
+    
+</script>
