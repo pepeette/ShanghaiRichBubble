@@ -13,3 +13,4 @@ So I decided to use python package folium
 To visualize my neighbourhood  
 
 Honestly, I now walk with a better understanding of the cars parked in front of each compound...
+in 3 lines of code. 
