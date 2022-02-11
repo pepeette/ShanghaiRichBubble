@@ -4,11 +4,12 @@ Yet... expats and rich Shanghaiese families live in a 1km radius bubble.
 
 I always assumed that we were all alike inside this mini bubble.
 
-But no, even what American describe as a communist country,
-Locals rank themselves...
-Depending on where you live... even inside the Bubble ;-)
+But no, even in what American people describe as a communist country,
+Locals do rank themselves...
+Depending on where you live., as a social clue of wealth.. 
+even inside the Bubble ;-)
 
 So I decided to use python package folium 
-To visualize my beighbourhood analysis 
+To visualize my neighbourhood  
 
 Honestly, I now walk with a better understanding of the cars parked in front of each compound...
