@@ -1,16 +1,9 @@
 # ShanghaiRichBubble
-In 2022, Shanghai officially had 23 millions inhabitants. From east to west, the city expands up to 52km. 
-Yet... expats and rich Shanghaiese families live in a 1km radius bubble. 
 
-I always assumed that we were all alike inside this mini bubble.
+In 2022, Shanghai officially had 23 million inhabitants, spanning 52 km from east to west. Yet, expats and wealthy Shanghainese families live within a 1 km radius bubble.
 
-But no, even in what American people describe as a communist country,
-Locals do rank themselves...
-Depending on where you live., as a social clue of wealth.. 
-even inside the Bubble ;-)
+I always assumed we were all alike inside this mini bubble. However, even in what Americans describe as a communist country, locals rank themselves based on where they live, which serves as a social clue of wealth—even within the bubble! 
 
-So I decided to use python package folium 
-To visualize my neighbourhood  
+To explore this further, I decided to use the Python package **Folium** to visualize my neighborhood.
 
-Honestly, I now walk with a better understanding of the cars parked in front of each compound...
-in 3 lines of code. 
+Honestly, I now walk with a better understanding of the cars parked in front of each compound—all in just three lines of code!
