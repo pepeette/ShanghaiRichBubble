@@ -7,3 +7,5 @@ I always assumed we were all alike inside this mini bubble. However, even in wha
 To explore this further, I decided to use the Python package **Folium** to visualize my neighborhood.
 
 Honestly, I now walk with a better understanding of the cars parked in front of each compound—all in just three lines of code!
+
+![mapofHuaCao](ShanghaiSocialClasses.html)
